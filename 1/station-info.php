@@ -13,12 +13,4 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 
 $resp_orders = curl_exec($ch);
 
-$json = json_decode($resp_orders);
-
-//echo $resp_orders;
-
-foreach ($json-> payload as $station){
-    echo$station->station . "<br>";
-    echo$station->dateTime . "<br>";
-//    echo$station->namen->lang . "<br>";
-}
+echo $resp_orders;
