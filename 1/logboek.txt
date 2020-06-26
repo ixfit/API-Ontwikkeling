@@ -1,0 +1,2 @@
+week 1: basis ophalen van stations en andere info
+week 2: added css to the form
